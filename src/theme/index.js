@@ -54,4 +54,5 @@ export default {
       darken30: "#1C1B1F",
     },
   },
+  transitionSpeed: "0.3s",
 }
