@@ -9,10 +9,9 @@ export const Text = styled.div`
 `
 
 Text.defaultProps = {
-  lineHeight: 0,
-  mb: "3rem",
   fontWeight: "normal",
   fontFamily: "primary",
+  fontSize: "md",
   color: "grey.darken20",
   display: "inline-block",
 }
@@ -20,6 +19,8 @@ Text.defaultProps = {
 export const H1 = Text.withComponent("h1")
 H1.defaultProps = {
   ...Text.defaultProps,
+  lineHeight: 0,
+  mb: "3rem",
   fontWeight: "headings",
   fontSize: "xxxxxl",
   display: "block",
@@ -58,6 +59,8 @@ H6.defaultProps = {
 export const P = Text.withComponent("p")
 P.defaultProps = {
   ...Text.defaultProps,
+  lineHeight: 0,
+  mb: "3rem",
   fontSize: "md",
   display: "block",
 }
