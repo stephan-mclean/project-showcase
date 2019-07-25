@@ -12,10 +12,10 @@ storiesOf("Design", module).add("Typography", () => (
     <H5>Heading 5</H5>
     <H6>Heading 6</H6>
     <P>Paragraph</P>
-    <Text fontSize="sm" display="block">
+    <Text fontSize="sm" mb="3rem" display="block">
       Small
     </Text>
-    <Text fontSize="xs" display="block">
+    <Text fontSize="xs" mb="3rem" display="block">
       Extra Small
     </Text>
   </div>

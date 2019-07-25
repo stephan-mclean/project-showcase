@@ -1,6 +1,7 @@
 import React from "react"
 import { configure, addDecorator } from "@storybook/react"
 import { action } from "@storybook/addon-actions"
+import { withKnobs } from "@storybook/addon-knobs"
 import { ThemeProvider } from "emotion-theming"
 import theme from "../src/theme"
 
@@ -12,6 +13,7 @@ function loadStories() {
 }
 
 addDecorator(story => <ThemeProvider theme={theme}>{story()}</ThemeProvider>)
+addDecorator(withKnobs)
 
 // highlight-start
 // Gatsby's Link overrides:
