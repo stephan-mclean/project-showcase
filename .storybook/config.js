@@ -4,6 +4,7 @@ import { action } from "@storybook/addon-actions"
 import { withKnobs } from "@storybook/addon-knobs"
 import { ThemeProvider } from "emotion-theming"
 import theme from "../src/theme"
+import "../src/fontawesome"
 
 // automatically import all files ending in *.stories.js
 // highlight-next-line
